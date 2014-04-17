@@ -1,0 +1,23 @@
+# Directorios específicos
+**/webapp/META-INF/maven/
+
+# Directorios generales
+bin/
+target/
+.settings/
+.sonar/
+
+# Archivos generales
+Thumbs.db
+*.log
+*.tmp
+*.class
+*.jar
+*.war
+*.ear
+*.*~
+.project
+.classpath
+.checkstyle
+.pmd
+clean.bat
