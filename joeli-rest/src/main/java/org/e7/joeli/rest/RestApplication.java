@@ -1,4 +1,4 @@
-package com.joeli.rest;
+package org.e7.joeli.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -1,4 +1,4 @@
-package com.joeli.rest;
+package org.e7.joeli.rest;
 
 import java.io.IOException;
 
@@ -9,10 +9,9 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import org.e7.joeli.core.RiverPdfFileFacade;
+import org.e7.joeli.model.RiverResponse;
 import org.elasticsearch.common.Base64;
-
-import com.joeli.api.RiverPdfFileFacade;
-import com.joeli.model.RiverResponse;
 
 @Path("/file")
 public class RestPdf {
