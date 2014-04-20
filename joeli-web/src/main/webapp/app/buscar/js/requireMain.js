@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+require.config({
+	baseUrl:"/joeli-web/common/lib",
+	paths:{
+		"pag":"../../app/buscar"
+	},
+	shim:{
+		'backbone':{
+			deps:['underscore','jquery'],
+			exports:'backbone'
+		},
+		'bootstrap':{
+			deps:['jquery'],
+			exports:'bootstrap'
+		}
+	}
+});
+require(['pag/js/router','pag/js/pagController'],function(router,pagController){
+	router.start();
+	pagController.start();
+});
